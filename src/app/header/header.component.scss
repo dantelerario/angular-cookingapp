@@ -1,14 +1,41 @@
 .container-fluid {
-    background-color: darksalmon;
-    border: 1px solid lightcoral;
+    background-color: darkblue;
+    border: 1px solid darkgrey;
     margin: 2px;
+    color: yellowgreen;
     a {
-        color: white;
+        color: yellowgreen;
         margin: 5px 10px;
+    }
+    a:hover {
+        color: yellow;
+    }
+    .active {
+        a {
+            background-color: rgb(38, 38, 186);
+            color: yellow;
+        }  
     }
     .dropdown {
         a {
-            color: black;
+            color: yellowgreen;
         }
+        a:hover {
+            color: yellow;
+        }
+        .dropdown-toggle {
+            a {
+                background-color: rgb(38, 38, 186);
+                color: yellow;
+            }  
+        }
+    }
+    .open {
+        a {
+            background-color: rgb(38, 38, 186);
+        }
+    }
+    .dropdown-menu {
+        background-color: rgb(38, 38, 186);
     }
 }
